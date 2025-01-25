@@ -1,4 +1,5 @@
 import EffectCount from "./components/useEffect/EffectCount"
+import UseMemo from "./components/UseMemo/UseMemo"
 import UseRef from "./components/useRef/UseRef"
 import Car from "./components/useState/Car"
 import Count from "./components/useState/Count"
@@ -19,6 +20,9 @@ function App() {
 
       <h1>Use Ref</h1>
       <UseRef />
+
+      <h1>Use Memo</h1>
+      <UseMemo />
     </>
   )
 }
